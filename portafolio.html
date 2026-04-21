@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://icons.getbootstrap.com/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Israel Aguilera Gándara</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#proyecto">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="Hero-Section1" class="text-light text-end py-5 mt-5">
+        <div class="container">
+            <div class="ms-auto col-12 ">
+                <h1 class="display-1 fw-bold text-blue text-start">
+                    Portafolio Perfil <br>
+                    Profesional
+                </h1>
+                <div class="card border-4 w-75 mb-3">
+                    <div class="card-body">
+                        <h4 class="card-title text-start">Ingeniero Informático</h4>
+                        <p class="card-text text-start">Israel Aguilera, Ingeniero con más de 4 años de experiencia en
+                            soporte de aplicaciones N2, experiencia en monitoreo de infraestructura crítica.
+                            Especialista en resolución de incidentes complejos en entornos productivos de alta
+                            disponibilidad. Gestión de bases de datos relacionales (PostgreSQL, SQL Server) y
+                            administración de sistemas Linux/Windows. Orientado a la estabilidad de servicios
+                            productivos y la mejora continua bajo marcos de trabajo ITIL. </p>
+                    </div>
+                </div>
+                <h5 class="my-5 text-dark "></h5>
+                <div class="text-start mb-5 pb-9 ">
+                    <a class="btn btn-lg bg-info text-black me-4" href="./index.html" target="_blank">Curriculum
+                        Vitae</a>
+                    <a class="btn btn-lg bg-info text-black me-4" href="https://github.com/buffonico"
+                        target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section-light py-5" id="proyecto">
+        <div class="container my-5">
+            <div class="section-heading text-center mx-auto mb-5">
+                <div class="row g-4">
+                    <h2 class="display-4 fw-bold text-center text-ligh mb-3">Proyectos</h2>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="assets/img/image4.png" class="card-img-top" alt="proyecto1">
+                            <hr>
+                            <div class="card-body">
+                                <h5 class="card-title">Implementacion de Monitoreo</h5>
+                                <p class="card-text">En IBM Kyndryl se implemento TIVOLI monitoreo con de discos, base de datos, 
+                                    sistamas operativos, instalando un agente de monitoreo via VMware.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="assets/img/image5.avif" class="card-img-top" alt="proyecto2">
+                            <hr>
+                            <div class="card-body">
+                                <h5 class="card-title">Implementacion de Automatizacion</h5>
+                                <p class="card-text">Para WOM, se implemento una automatizacion con Automation Anywhere,
+                                    simpleficando procesos de analisis contable y cotegorizacion fibra optica.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="assets/img/image6.png" class="card-img-top" alt="proyecto3">
+                            <hr>
+                            <div class="card-body">
+                                <h5 class="card-title">Proceso de creacion de FTP y SFTP</h5>
+                                <p class="card-text">Con la creacion de FTP y SFTP, clientes bancarios pueden acceder a dumentacion
+                                    fragil, con protolos de seguridad, sin exponer sus propios clientes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-light py-5" id="contacto">
+        <div class="container py-lg-4">
+            <div class="section-heading text-center mx-auto mb-5">
+                <form class="row bg-info m-5 p-3">
+                    <h1 class="text-white text-center">Contáctame</h1>
+                    <div class="col-12">
+                        <input type="text" class="form-control" id="inputname" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="col-12 p-3">
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Ingrese su correo">
+                    </div>
+                    <div class="form-group text-start">
+                        <label class="mb-2">Mensaje</label>
+                        <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="button" class="btn btn-primary m-4">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-white text-center py-2 bg-dark">
+        <h3 class="fw-bold">Portafolio Profesional</h3>
+        <p>Todos los derechos reservados ©2026 Israel Aguilera Gándara</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
